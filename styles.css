@@ -1,29 +1,143 @@
-/* * {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  } */
-  .navigation-wrapper{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 250px;
-      float: right;
-  }
-  .main-wrapper .navigation-wrapper .letter{
-      background: #0097a7;
-      padding: 8px;
-      border: 1px solid #0097a7;
-      border-radius: 50%;
-      color: white;
-      font-size: 15px;
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-left: 1080px;
+    margin-top: 15px;
+    
+}
+.main-wrapper .navigation-wrapper .letter{
+    background: #0097a7;
+    padding: 5px;
+    border: 1px solid #0097a7;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.icon{
+    color:gray;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+.icon_1 {
+    background-color: rgba(0,0,0,.55);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding:1px;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.icon:hover{
+    color: rgba(0,0,0,0.87);
+}
+.icon_1:hover{
+    background: rgba(0,0,0,0.87);
+}
+.navigation-wrapper .gmail a,.images a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
 
-  }
-  .icon_1{
-      background: #777;
-      padding: 2px;
-      border: 1px solid #737373;
-      border-radius: 50%;
-      color: white;
-      font-size: 10px;
-  }
+}
+.navigation-wrapper .gmail a:hover,.images a:hover{
+    text-decoration: underline;
+}
+.container-wrapper{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 30px;
+}
+.long{
+    width: 600px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.10);
+}
+.mini-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.mini-wrapper div{
+   
+    margin-left: 10px;
+    background:#f2f2f2;
+    padding: 10px; 
+    font-family: arial,sans-serif;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    font-size: 13px;
+    
+}
+.mini-wrapper div:hover{
+    border: 1px solid rgba(0,0,0,0.10);
+    color: black;
+    border-radius: 2px;
+}
+.language span a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.language span a:hover{
+
+    text-decoration: underline;
+}
+.footer-wrapper{
+    margin-top: 90px;
+}
+.footer-wrapper > .last-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-wrapper .Nigeria{
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 0px;
+    height: 20px;
+    border: 1px solid  rgba(0,0,0,0.10);
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+}
+.last-wrapper a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgba(0,0,0,0.50);
+   
+}
+.last-wrapper a:hover{
+    text-decoration: underline;
+}
+.last-wrapper{
+    background: #f2f2f2;
+    margin-bottom: 0px;
+    height: 20px;
+    padding: 10px;
+    font-family: arial,sans-serif;
+    font-size: small;
+    font-weight: bold;
+    
+}
